@@ -1,5 +1,4 @@
 body {
-    color: green ;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 0%;
@@ -16,6 +15,7 @@ h1 {
 }
 
 .container {
+
     width: 70%;
     padding: 1em;
     text-align: left;
@@ -25,3 +25,20 @@ h1 {
 .container p {
     font-size: 1.8rem;
 }
+ 
+.cabecera {
+    display: flex;
+    background-color:red;
+    box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+.cabecera .textooo {
+    margin: 0 0 6rem;
+    font-weight: normal;
+    padding: 1.1rem;
+    font-size: 1.8rem;
+    padding-top: 2.5rem;
+
+}
+
+
